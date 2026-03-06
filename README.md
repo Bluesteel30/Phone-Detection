@@ -10,7 +10,7 @@ We can take a warped image like
 
 https://github.com/user-attachments/assets/60cc62b7-a8bd-4dfb-8132-24829c71a4ac
 
-and through merge.py
+and through merge.py we can see the list of missing phones
 
 https://github.com/user-attachments/assets/674f9a0c-1596-445f-9881-631763bc01c1
 

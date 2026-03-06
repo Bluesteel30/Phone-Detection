@@ -219,10 +219,13 @@ for zone_id, ((cx, cy), (w, h)) in d.items():
                 cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 255, 0), 2)
 
 # 4. Save and show
-cv2.imwrite("output.jpg", image)
+cv2.namedWindow("Final Output", cv2.WINDOW_NORMAL)
+cv2.resizeWindow("Final Output", 500, 750) 
 cv2.imshow("Final Output", image)
+cv2.imwrite("output.jpg", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 
 
 
